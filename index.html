@@ -47,6 +47,45 @@
       line-height: 1.6;
       margin-top: 1.5rem;
     }
+
+    /* Медиазапросы для мобильных устройств */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem; /* Уменьшаем размер заголовка */
+      }
+
+      h2 {
+        font-size: 1.3rem; /* Уменьшаем размер подзаголовка */
+      }
+
+      p {
+        font-size: 1rem; /* Уменьшаем размер текста */
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .container {
+        padding: 2rem; /* Уменьшаем отступы */
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem; /* Еще больше уменьшаем для очень маленьких экранов */
+      }
+
+      h2 {
+        font-size: 1.1rem; /* Уменьшаем размер подзаголовка */
+      }
+
+      p {
+        font-size: 0.95rem; /* Еще меньше текст для маленьких экранов */
+      }
+
+      .container {
+        padding: 1.5rem; /* Еще меньше отступы */
+      }
+    }
   </style>
 </head>
 <body>
